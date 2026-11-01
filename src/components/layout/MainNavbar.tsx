@@ -11,7 +11,7 @@ export default function MainNavbar() {
   return (
     <header className="border-b bg-white">
             <nav className="mx-auto max-w-6xl flex items-center justify-between p-5">
-                <Link href="/" className="text-2xl font-bold">
+                <Link href="/" className="text-2xl font-bold text-cyan-600">
                     DevShop
                 </Link>
                 <div className="flex items-center gap-6">

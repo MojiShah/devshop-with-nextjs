@@ -1,9 +1,10 @@
+import { categories } from "@/features/products/data/categories";
 import Link from "next/link";
 
-const categories = [
-    { id: 1, title: "Electronics", slug: "electronics", },
-    { id: 2, title: "Fashion", slug: "fashion", },
-];
+// const categories = [
+//     { id: 1, title: "Electronics", slug: "electronics", },
+//     { id: 2, title: "Fashion", slug: "fashion", },
+// ];
 
 export default function Categoriespage() {
     return (
