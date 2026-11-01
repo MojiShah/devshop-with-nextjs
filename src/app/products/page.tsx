@@ -8,10 +8,10 @@ const products = [
 
 export default function ProductsPage() {
   return (
-    <main className="p-8">
+    <main className="mx-auto max-w-6xl p-8">
         <h1 className="text-3xl font-bold">All Products</h1>
 
-        <div className="mt-6 space-y-4">
+        <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {
                 products.map(product=>
                     <div key={product.id} className="rounded-lg border p-4">
