@@ -11,7 +11,7 @@ const navigation = [
 export default function AdminSidebar() {
     return (
         <aside className="hidden w-64 shrink-0 bg-gray-950 text-white lg:flex lg:flex-col">
-            
+
             <div className="border-b border-gray-800 px-6 py-7">
                 <Link href="/admin" className="text-xl font-black">
                     DevShop <span className="text-indigo-500">Admin</span>
